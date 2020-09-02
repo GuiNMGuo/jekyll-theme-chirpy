@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Markdown语法简介
-date: 2013-07-16
+date: 2018-07-16
 Author: Shengbin
-categories: 
+categories: [markdown,latex]
 tags: [markdown]
 comments: true
 ---
@@ -164,6 +164,26 @@ This is a code block.
 效果：
 
 * * * * *
+
+### 表格
+
+用多个’|‘产生表格，用’:‘设置对齐方式：
+
+```
+| Company                      | contact          |      Country |
+| :--------------------------- | :--------------- | -----------: |
+| Alfreds Futterkiste          | Maria Anders     |      Germany |
+| Island Trading               | Helen Bennett    |           UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli | ItalyCompany |
+```
+
+效果：
+
+| Company                      | contact          |      Country |
+| :--------------------------- | :--------------- | -----------: |
+| Alfreds Futterkiste          | Maria Anders     |      Germany |
+| Island Trading               | Helen Bennett    |           UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli | ItalyCompany |
 
 ### 链接
 
