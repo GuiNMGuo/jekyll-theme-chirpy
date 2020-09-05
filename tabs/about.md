@@ -8,4 +8,4 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+评论需科学上网，博客主要记录点与自己工作学习有关的东西。
