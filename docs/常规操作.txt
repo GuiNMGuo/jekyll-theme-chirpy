@@ -1,0 +1,6 @@
+jekyll serve启动本地服务
+git log --pretty=oneline 查看日志（一行显示）
+bash _script/sh/create_page.sh 创建页面
+git add .
+git commit
+git push
