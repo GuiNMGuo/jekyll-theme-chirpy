@@ -125,3 +125,20 @@ comments: true
      debug中python的launch.json配置："console": "internalConsole"
   
      用#%%也可调试代码
+     
+  6. **快捷键**
+  
+     ```
+  折叠所有代码：ctrl + k, ctrl + 0
+     展开所有代码：ctrl + k, ctrl + j
+     ```
+  7. **常见问题**
+  
+     在VS Code中编写python文件时，import自定义module报错 "could not be resolved"
+  
+     ```
+     "python.analysis.extraPaths": [
+         "./src",　　　　　　　　// 自定义模块的相对路径，可多个，可绝对路径　　
+         "./modules"
+     ]
+     ```
